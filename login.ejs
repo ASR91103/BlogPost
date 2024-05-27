@@ -1,0 +1,31 @@
+<%- include("partials/header"); -%>
+
+<section class="vh-100">
+  <div class="container-fluid h-custom">
+
+    <form action="/login" method="post">
+      <!-- Username input -->
+      <div class="fields flex-container">
+        <div class="form-outline login-field">
+          <input type="text" name="userName" class="form-control login-input form-control-lg" placeholder="Username" />
+
+          <!-- Password input -->
+          <input type="password" name="passWord" class="form-control login-input form-control-lg" placeholder="Password" />
+        </div>
+
+        <div class="login-field">
+          <button type="submit" name="login_button" value="<%= page %>" class="btn login-btn btn-primary btn-lg">Login</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+</section>
+
+<!-- <script type="text/javascript">
+  function fun1(){
+    document.getElementsByClassName("login-error").classList.remove("login-error-display");
+  }
+</script> -->
+
+<%- include("partials/footer"); -%>

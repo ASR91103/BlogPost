@@ -1,0 +1,119 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+
+
+/*********login*******************/
+
+.login-field{
+  padding: 20px 30px;
+}
+
+/* .login-btn{
+  background: #0099ff;
+  background-image: -webkit-linear-gradient(top, #0099ff, #0e99f0);
+  background-image: -moz-linear-gradient(top, #0099ff, #0e99f0);
+  background-image: -ms-linear-gradient(top, #0099ff, #0e99f0);
+  background-image: -o-linear-gradient(top, #0099ff, #0099ff);
+  background-image: linear-gradient(to bottom, #0099ff, #0099ff);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+} */
+
+.login-input{
+ margin-top: 30px;
+ font-size: 16px;
+ padding: 20px 10px;
+}
+
+/* .login-btn:hover {
+background: #3cb0fd;
+background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+text-decoration: none;
+} */
+
+
+.fields{
+  width: 38%;
+  align-items: flex-start;
+  flex: 1;
+  height: 1px;
+}
+
+.login-error{
+  visibility: hidden;
+}
+
+.login-error-display{
+  border: solid 1px #ffb674;
+  padding: 10px 30px;
+  background-color: #ffb674;
+  font-size: 18px;
+  font-weight: normal;
+  visibility: visible;
+}
+
+.login-error-display button{
+  background-color: #ffb674;
+  border-color: #ffb674;
+  color: red;
+}
+
+
+/*****************delete**************************/
+.delete-btn{
+  position: Absolute;
+  right:4%;
+  margin-top: 5rem;
+}
